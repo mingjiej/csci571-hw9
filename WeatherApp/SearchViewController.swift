@@ -24,6 +24,8 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 
 class SearchViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate {
 
+    @IBOutlet weak var buttonForecast: UIButton!
+    @IBOutlet weak var powerLabel: UILabel!
     @IBOutlet weak var StreetInput: UITextField!
     @IBOutlet weak var CityInput: UITextField!
 //    @IBOutlet weak var StreetInput: UITextField!
@@ -35,6 +37,7 @@ class SearchViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     var todayData : [String:String] = [:]
     var lon = Double(0)
     var lat = Double(0)
+    let screenHeight = UIScreen.main.bounds.height
 //    @IBOutlet weak var CityInput: UITextField!
     var degree = String();
     var colors = ["Red","Yellow","Green","Blue"]
@@ -66,6 +69,10 @@ class SearchViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         background.image = blurredImage
         self.navigationController?.navigationBar.tintColor = UIColor.white
         // Do any additional setup after loading the view.
+        if(screenHeight <= 568) {
+            buttonForecast.isHidden = true
+            powerLabel.isHidden = true
+        }
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -311,5 +318,6 @@ class SearchViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }

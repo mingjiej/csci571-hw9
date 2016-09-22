@@ -33,6 +33,7 @@
 		CE6DBD6B1D71406A008821BE /* TodayHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DBD6A1D71406A008821BE /* TodayHeaderTableViewCell.swift */; };
 		CE6DBD6D1D7141EE008821BE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6DBD6C1D7141EE008821BE /* Bolts.framework */; };
 		CE6DBD6F1D725F8E008821BE /* AerisMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DBD6E1D725F8E008821BE /* AerisMapViewController.swift */; };
+		CE9E39E91D93582600595127 /* DeviceIndicater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E39E81D93582500595127 /* DeviceIndicater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		CE6DBD6A1D71406A008821BE /* TodayHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		CE6DBD6C1D7141EE008821BE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		CE6DBD6E1D725F8E008821BE /* AerisMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AerisMapViewController.swift; sourceTree = "<group>"; };
+		CE9E39E81D93582500595127 /* DeviceIndicater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceIndicater.swift; sourceTree = "<group>"; };
 		CECF839A1D726462006C5CFC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		FAC016BA94DA20C7FD729F23 /* Pods_WeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -227,6 +229,7 @@
 				CE2B6AAB1D70AEF7003566B5 /* Next7Days.swift */,
 				CE2B6AAC1D70AEF7003566B5 /* Next24Hours.swift */,
 				CE2B6AAD1D70AEF7003566B5 /* SupportFunction.swift */,
+				CE9E39E81D93582500595127 /* DeviceIndicater.swift */,
 			);
 			name = "support File";
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9E39E91D93582600595127 /* DeviceIndicater.swift in Sources */,
 				CE6D6BBE1D8A14F600CE42F3 /* DetailViewController.swift in Sources */,
 				CE2B6AAA1D70AEDD003566B5 /* UIImageEffects.swift in Sources */,
 				CE2B6A771D70A77A003566B5 /* ViewController.swift in Sources */,
